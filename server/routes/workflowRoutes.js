@@ -9,7 +9,7 @@ router.use(authController.protect);
 
 router
   .route("/")
-  .get(workflowController.getAllWorkflows)
+  .get(workflowController.getAllWorkflows) 
   .post(workflowController.createWorkflow);
 
 router
