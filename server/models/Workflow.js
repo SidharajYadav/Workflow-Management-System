@@ -4,7 +4,7 @@ const workflowSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "A workflow must have a name"],
-    trim: true,
+    trim: true, 
   },
   description: { 
     type: String,
