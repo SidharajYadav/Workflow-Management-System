@@ -8,7 +8,7 @@ const signToken = (id) => {
   });
 };
 
-exports.signup = async (req, res, next) => {
+exports.signup = async (req, res, next) => { 
   try {
     const newUser = await User.create({
       name: req.body.name,
