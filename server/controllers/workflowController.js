@@ -9,7 +9,7 @@ exports.getAllWorkflows = catchAsync(async (req, res, next) => {
     status: "success",
     results: workflows.length,
     data: {
-      workflows,
+      workflows, 
     },
   });
 });
