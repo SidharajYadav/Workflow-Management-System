@@ -40,7 +40,7 @@ const workflowSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-});
+}); 
 
 const Workflow = mongoose.model("Workflow", workflowSchema);
 module.exports = Workflow;
